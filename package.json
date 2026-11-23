@@ -1,0 +1,16 @@
+{
+  "name": "aggregated-apiserver-failover-validator",
+  "version": "1.0.0",
+  "description": "聚合 API Server 故障切换与发现一致性判定引擎（纯本地模拟，不连接 Kubernetes）",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.js"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
